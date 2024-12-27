@@ -1,0 +1,20 @@
+.footer {
+  width: 100%;
+  background-color: $green_color;
+  color: white;
+  padding: 5rem;
+  &-links {
+    display: flex;
+    row-gap: 2rem;
+    column-gap: 4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+  }
+  .copyright {
+    font-size: 1.4rem;
+    text-align: center;
+
+  }
+}

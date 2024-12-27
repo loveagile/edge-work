@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 12rem;
+
+  @include media('sp') {
+    padding: 2rem 5rem;
+  }
+
+  &_logo {
+    width: 20rem;
+    height: 4.5rem;
+
+    @include media('sp') {
+      width: 16rem;
+      height: 3.6rem;
+    }
+  }
+}
